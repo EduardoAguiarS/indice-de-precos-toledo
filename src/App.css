@@ -1,0 +1,162 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.title {
+  color: #f0f0f0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  background: #333;
+  padding: 1.2rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: #056bf0;
+}
+
+.header h3 {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  gap: 0.5rem;
+  padding: 1.2rem;
+  background-color: #333;
+  border-radius: 1rem;
+  margin: 1rem 0;
+}
+
+.form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.form div label {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #f0f0f0;
+}
+
+.form div input {
+  color: #333;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+  font-size: 0.8rem;
+  background-color: #f0f0f0;
+}
+
+.form div input:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem #056bf0;
+}
+
+.form div input::placeholder {
+  font-size: 0.8rem;
+}
+
+.form button {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #056bf0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.form button:hover {
+  background-color: #0055cc;
+}
+
+.message {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.noProducts {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* Table styles with overflow responsive */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  
+  width: 100%;
+
+  border-collapse: collapse;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+  overflow: hidden;
+}
+table thead th {
+  background-color: #056bf0;
+  border-bottom: solid 2px #ffffff;
+  /* boder right buth no effect last column */
+  border-right: solid 2px #ffffff;
+  color: #ffffff;
+  padding: 10px;
+  text-align: left;
+}
+
+table thead th:last-child {
+  border-right: none;
+}
+
+table tbody td {
+  border-right: solid 2px #ffffff;
+  color: #ffffff;
+  padding: 10px;
+  background-color: #333;
+}
+
+table tbody td:last-child {
+  border-right: none;
+}
+
+table tbody td button {
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  border: none;
+  background-color: #e20c0c;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.8rem;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+table tbody td button:hover {
+  background-color: #cc0000;
+}
